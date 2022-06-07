@@ -95,3 +95,49 @@
 //     }  | undefined
 // } = {}
 // phones.fax
+// Arrays
+// const fileExtensions: string[] = ["js", "ts"];
+// const cars: {
+//     make: string;
+//     model: string;
+//     year: number
+// }[] = [
+//     {
+//         make: "Toyota",
+//         model: "Corolla",
+//         year: 2002
+//     }
+// ]
+// Tuples
+// let myCar: [number, string, string] = [2002, 'Toyota', 'Corolla'];
+// const [year, make, model] = myCar;
+// Structural vs Nominal Types
+// TypeScript is structural (structure or shape)
+// Java is nominal (what's the name of the Class)
+// class Car {
+//     make: string;
+//     model: string;
+//     year: number;
+//     isElectric: boolean;
+// }
+// class Truck {
+//     make: string;
+//     model: string;
+//     year: number;
+//     towingCapacity: number;
+// }
+// const vehicle = {
+//     make: "Honda",
+//     model: "Corolla",
+//     year: 2002
+// }
+// function printCar(car: {
+//     make: string;
+//     model: string;
+//     year: number
+// }) {
+//     console.log(`${car.make} ${car.model} ${car.year}`);
+// }
+// printCar(new Car());
+// printCar(new Truck())
+// printCar(vehicle)
